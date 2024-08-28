@@ -12,7 +12,7 @@ app.use(morgan("tiny"));
 
 const corsOptions = {
   origin: true,
-  credentials: true, //included credentials as true
+  credentials: true, //included credentials as tru
   preflightContinue: true,
 };
 app.use(cors(corsOptions));
